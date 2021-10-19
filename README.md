@@ -8,4 +8,6 @@ programas instalados:
 -vscode
 -python
 -cmder
+meu teste
+
 
