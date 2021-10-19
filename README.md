@@ -10,3 +10,4 @@ programas instalados:
 -cmder
 -novo
 -novo2
+-novo3
