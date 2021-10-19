@@ -8,3 +8,4 @@ programas instalados:
 -vscode
 -python
 -cmder
+-novo
