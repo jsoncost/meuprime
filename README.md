@@ -9,3 +9,4 @@ programas instalados:
 -python
 -cmder
 -novo
+-novo2
