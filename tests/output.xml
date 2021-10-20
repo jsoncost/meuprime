@@ -1,44 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 4.1.2 (Python 3.10.0 on win32)" generated="20211020 12:54:15.205" rpa="false" schemaversion="2">
+<robot generator="Robot 4.1.2 (Python 3.10.0 on win32)" generated="20211020 13:45:17.984" rpa="false" schemaversion="2">
 <suite id="s1" name="Test Variaveis" source="C:\projetoprime\meuprime\tests\test_variaveis.robot">
 <test id="s1-t1" name="observação do teste: dados">
 <kw name="imprimir mensagem no console">
 <kw name="Log To Console" library="BuiltIn">
 <arg>\n${pessoa.nome}\n</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20211020 12:54:15.332" endtime="20211020 12:54:15.335"/>
+<status status="PASS" starttime="20211020 13:45:18.084" endtime="20211020 13:45:18.086"/>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <arg>${pessoa.sobrenome}\n</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20211020 12:54:15.335" endtime="20211020 12:54:15.337"/>
+<status status="PASS" starttime="20211020 13:45:18.086" endtime="20211020 13:45:18.090"/>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <arg>${pessoa.idade}\n</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20211020 12:54:15.337" endtime="20211020 12:54:15.339"/>
+<status status="PASS" starttime="20211020 13:45:18.090" endtime="20211020 13:45:18.093"/>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <arg>${pessoa.email}\n</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20211020 12:54:15.339" endtime="20211020 12:54:15.340"/>
+<status status="PASS" starttime="20211020 13:45:18.093" endtime="20211020 13:45:18.095"/>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <arg>${pessoa.sexo}\n</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20211020 12:54:15.341" endtime="20211020 12:54:15.342"/>
+<status status="PASS" starttime="20211020 13:45:18.095" endtime="20211020 13:45:18.097"/>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <arg>${pessoa.cidade}\n</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20211020 12:54:15.343" endtime="20211020 12:54:15.348"/>
+<status status="PASS" starttime="20211020 13:45:18.098" endtime="20211020 13:45:18.100"/>
 </kw>
-<status status="PASS" starttime="20211020 12:54:15.331" endtime="20211020 12:54:15.349"/>
+<status status="PASS" starttime="20211020 13:45:18.083" endtime="20211020 13:45:18.102"/>
 </kw>
-<status status="PASS" starttime="20211020 12:54:15.330" endtime="20211020 12:54:15.350"/>
+<kw name="Receber mensagem no console">
+<kw name="Log To Console" library="BuiltIn">
+<arg>\n${frutas[0]}\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20211020 13:45:18.104" endtime="20211020 13:45:18.108"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${frutas[1]}\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20211020 13:45:18.109" endtime="20211020 13:45:18.113"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${frutas[2]}\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20211020 13:45:18.113" endtime="20211020 13:45:18.116"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${frutas[3]}\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20211020 13:45:18.117" endtime="20211020 13:45:18.125"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${frutas[4]}\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20211020 13:45:18.126" endtime="20211020 13:45:18.128"/>
+</kw>
+<status status="PASS" starttime="20211020 13:45:18.103" endtime="20211020 13:45:18.129"/>
+</kw>
+<status status="PASS" starttime="20211020 13:45:18.082" endtime="20211020 13:45:18.132"/>
 </test>
 <doc>testando variaveis</doc>
-<status status="PASS" starttime="20211020 12:54:15.209" endtime="20211020 12:54:15.352"/>
+<status status="PASS" starttime="20211020 13:45:17.987" endtime="20211020 13:45:18.135"/>
 </suite>
 <statistics>
 <total>
